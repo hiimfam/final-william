@@ -1,0 +1,61 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Montserrat', sans-serif;
+    box-sizing: border-box;
+}
+
+header {
+    padding: 20px;
+    text-align: center;
+}
+
+.footer {
+    padding-top: 3em;
+    text-align: center;
+    padding-bottom: 5em;
+}
+
+.container {
+    text-align: center;
+    position: relative;
+}
+
+.displayedimg {
+    margin: auto;
+    display: block;
+    width: 80%;
+}
+
+.thumb-bar {
+    clear: both;
+    text-align: center;
+}
+
+.imgThumbnail {
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+@media screen and (min-width: 640px) {
+    body {
+        background-color: white;
+    }
+
+    label {
+        margin-left: 4em;
+        float: left;
+    }
+    form {
+        float: left;
+        margin-left: 2em;
+    }
+    button {
+        float: left;
+        margin-left: 3em;
+    }
+}
+
+div img {
+    width: 15%;
+}

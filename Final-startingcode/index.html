@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Gallery</title>
+    <meta name="viewport" content="width=device=width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital@1&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <header>
+        <h1>Welcome to our gallery</h1>
+        <p>Hover on any thumbnail to see it bigger</p>
+    </header>
+
+
+    <div class="thumb-bar">
+        <img class="imgThumbnail" id="img1" src="images/pic1.jpg" alt="pic1"/>
+        <img class="imgThumbnail" src="images/pic2.jpg" alt="pic2"/>
+        <img class="imgThumbnail" src="images/pic3.jpg" alt="pic3"/>
+        <img class="imgThumbnail" src="images/pic4.jpg" alt="pic4"/>
+        <img class="imgThumbnail" src="images/pic5.jpg" alt="pic5"/>
+    </div>
+
+
+    <div class="container">
+        <img class="displayedimg" alt="displayed image"/>
+    </div>
+
+
+    <div class="footer">
+    <label id="label">What effect do you want to apply?</label>
+    <form name="myForm" id="frm">
+        <input name="inputthing" id="effect" type="text">
+    </form>
+    <button id="button" onclick="myFunction()" >Submit</button>
+    </div>
+
+    <script type="text/javascript" src="script.js"></script>
+</body>
+
+</html>
